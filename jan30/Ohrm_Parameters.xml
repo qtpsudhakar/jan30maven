@@ -1,0 +1,12 @@
+<suite name="Ohrmregression" parallel="tests">
+	<test name="chromTest">
+		<parameters>
+			<parameter name="browser" value="chrome" />
+			<parameter name="appUrl" value="http://opensource.demo.orangehrmlive.com/" />
+		</parameters>
+		<classes>
+			<class name="com.wd.tests.OhrmAddEmployee" />
+		</classes>
+
+	</test>
+</suite>
